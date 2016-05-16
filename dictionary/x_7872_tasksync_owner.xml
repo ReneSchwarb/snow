@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_7872_tasksync_contact" label="Owner" max_length="40" name="x_7872_tasksync_owner" type="collection">
+        <element label="Abbreviation" max_length="40" name="abbreviation" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Contact" max_length="40" name="x_7872_tasksync_contact" type="collection">
+        <element label="Account" max_length="32" name="account" reference="x_7872_tasksync_account" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="account"/>
+        </index>
+    </element>
+</database>
