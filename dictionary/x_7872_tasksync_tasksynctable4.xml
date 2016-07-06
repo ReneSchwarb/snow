@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Task Sync Table-4" max_length="40" name="x_7872_tasksync_tasksynctable4" type="collection">
+        <element label="Field a" max_length="40" name="field_a" type="string"/>
+        <element label="Field b" max_length="40" name="field_b" type="string"/>
+    </element>
+</database>

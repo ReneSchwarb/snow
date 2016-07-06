@@ -4,18 +4,14 @@
         <element label="Account" max_length="32" name="account" reference="x_7872_tasksync_account" type="reference"/>
         <element label="Contact" max_length="32" name="contact" reference="x_7872_tasksync_contact" type="reference"/>
         <element label="enGuid" max_length="40" name="enguid" type="string"/>
+        <element choice="1" label="EnTaskType" max_length="40" name="entasktype" type="choice">
+            <choice/>
+        </element>
         <element label="lastEnChecked" max_length="40" name="lastenchecked" type="string"/>
         <element label="lastSnState" max_length="40" name="lastsnstate" type="string"/>
         <element label="linkText" max_length="250" name="linktext" type="string"/>
         <element label="linkUrl" max_length="1024" name="linkurl" type="url"/>
         <element label="Owner" max_length="32" name="owner" reference="x_7872_tasksync_owner" type="reference"/>
         <element label="taskSnState" max_length="40" name="tasksnstate" type="string"/>
-        <element choice="1" label="Type" max_length="40" name="type" type="choice">
-            <choice>
-                <element hint="a Group of Tasks" label="Group" value="Group"/>
-                <element hint="The Task represents a Note wit a lot of Tasks" label="Note" value="Note"/>
-                <element hint="A single atomic Task" label="Task" value="Task"/>
-            </choice>
-        </element>
     </element>
 </database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <css/>
+        <id>offerings_home_page</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-05-18 22:50:09</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>270c0718db63120078c0f6fdbf961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>offerings_home_page</sys_name>
+        <sys_package display_value="TaskSync" source="x_7872_tasksync">949065b0db93120078c0f6fdbf961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TaskSync">949065b0db93120078c0f6fdbf961975</sys_scope>
+        <sys_update_name>sp_page_270c0718db63120078c0f6fdbf961922</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-18 22:50:09</sys_updated_on>
+        <title>Offerings Home Page</title>
+    </sp_page>
+</record_update>

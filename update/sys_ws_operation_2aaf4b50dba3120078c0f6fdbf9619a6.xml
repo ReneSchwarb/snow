@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>GET</http_method>
+        <name>today</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	response = now();
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_7872_tasksync/getday/today</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/today</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-05-18 23:07:37</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2aaf4b50dba3120078c0f6fdbf9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>today</sys_name>
+        <sys_package display_value="TaskSync" source="x_7872_tasksync">949065b0db93120078c0f6fdbf961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TaskSync">949065b0db93120078c0f6fdbf961975</sys_scope>
+        <sys_update_name>sys_ws_operation_2aaf4b50dba3120078c0f6fdbf9619a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-18 23:07:37</sys_updated_on>
+        <web_service_definition display_value="GetDay">838f0b50dba3120078c0f6fdbf9619e7</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
